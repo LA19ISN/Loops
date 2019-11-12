@@ -1,0 +1,10 @@
+for x in range (0, 10):
+    print ('Pour x=')
+    print (x)
+    print ('Quel est le coefficient directeur?')
+    m=int(input())
+    print ("Quel est l'ordonnée à l'origine?")
+    p=int(input())
+    y= m*x+p
+    print ("l'ordonnée du point à x est")
+    print (y)
